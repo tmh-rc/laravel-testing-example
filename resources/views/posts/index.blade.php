@@ -1,5 +1,3 @@
-<x-app-layout>
-    
 <div class="w-2/3">
     <a href="{{ route('posts.create') }}" class="border px-4 py-2 bg-blue-500 hover:bg-blue-700 mb-5 inline-block">Create</a>
     <ul>
@@ -21,4 +19,3 @@
     
     {{ $posts->links() }}
 </div>
-</x-app-layout>
